@@ -45,7 +45,7 @@ Tensorflow implementation of pix2pix [1] for various datasets.
 * Generate animation for fixed inputs
   * First column: input, second column: output, third column: ground truth
 
-![cityscapes_gif](cityscapes_results/cityscapes_generate_animation.gif)
+![maps_gif](maps_results/maps_generate_animation.gif)
 
 * Time
   * training time: Avg. per epoch: 205.08 sec; Total 200 epochs: 41,622.29 sec
