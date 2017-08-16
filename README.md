@@ -18,6 +18,39 @@ Tensorflow implementation of pix2pix [1] for various datasets.
 
 ## Resutls
 ### maps
+* facades after 200 epochs
+<table align='center'>
+<tr align='center'>
+<td> Input </td>
+<td> Output </td>
+<td> Ground truth </td>
+</tr>
+<tr>
+<td><img src = 'facades_results/test_results/1_input.png'>
+<td><img src = 'facades_results/test_results/1_output.png'>
+<td><img src = 'facades_results/test_results/1_target.png'>
+</tr>
+<tr>
+<td><img src = 'facades_results/test_results/2_input.png'>
+<td><img src = 'facades_results/test_results/2_output.png'>
+<td><img src = 'facades_results/test_results/2_target.png'>
+</tr>
+<tr>
+<td><img src = 'facades_results/test_results/3_input.png'>
+<td><img src = 'facades_results/test_results/3_output.png'>
+<td><img src = 'facades_results/test_results/3_target.png'>
+</tr>
+</table>
+
+* Generate animation for fixed inputs
+  * First column: input, second column: output, third column: ground truth
+
+![maps_gif](facades_results/facades_generate_animation.gif)
+
+* Learning time
+  * Avg. per epoch: 54.19 sec; Total 200 epochs: 11,339.61 sec
+  
+### maps
 * maps after 200 epochs
 <table align='center'>
 <tr align='center'>
@@ -47,9 +80,8 @@ Tensorflow implementation of pix2pix [1] for various datasets.
 
 ![maps_gif](maps_results/maps_generate_animation.gif)
 
-* Time
-  * training time: Avg. per epoch: 205.08 sec; Total 200 epochs: 41,622.29 sec
-  * test time: Avg. per image process: 0.2 sec; Total 1098 images process: 221.76 sec
+* Learning time
+  * Avg. per epoch: 205.08 sec; Total 200 epochs: 41,622.29 sec
   
 ## Development Environment
 
