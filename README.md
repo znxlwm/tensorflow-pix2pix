@@ -85,15 +85,14 @@ Tensorflow implementation of pix2pix [1] for various datasets.
   
 ## Development Environment
 
-* Ubuntu 14.04 LTS
-* NVIDIA GTX 1080 ti
+* Windows 7
+* GTX1080 ti
 * cuda 8.0
-* Python 2.7.6
-* pytorch 0.1.12
-* torchvision 0.1.8
-* matplotlib 1.3.1
+* Python 3.5.3
+* tensorflow-gpu 1.2.1
+* numpy 1.13.1
+* matplotlib 2.0.2
 * imageio 2.2.0
-* scipy 0.19.1
 
 ## Reference
 
